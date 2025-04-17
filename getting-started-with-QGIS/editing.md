@@ -1,8 +1,8 @@
-#Editing data in QGIS
+# Editing data in QGIS
 
 Editing data in QGIS is simple and user-friendly. In order to edit a layer in QGIS you need to load the data into QGIS. Most data types can be edited in QGIS' basic install including shapefiles, ArcGIS Online Feature Classes, and GeoPackages (QGIS version of the File Geodatabase).
 
-##Enabling Editing in ArcGIS Online
+## Enabling Editing in ArcGIS Online
 If you have not connected QGIS to ArcGIS Online yet you need to do that before editing ArcGIS Online Data. You can find the steps to doing this in the [connecting QGIS to ArcGIS Online](getting-started-with-QGIS/connecting-to-agol.md) section of this guide.
 
 Once this connection has been made you need to ensure the ArcGIS Online data has editing enabled in ArcGIS Online. Open ArcGIS Online in a web-browser and login to your ArcGIS Account. Then, navigate to the layer in the Contents tab and open its Settings.
@@ -12,7 +12,7 @@ Once you have editing enabled on your feature layer in ArcGIS Online, you can lo
 
 ![ArcGIS REST Servers](images/qgisAddDataAGOL.PNG)
 
-##Editing Tools in QGIS
+## Editing Tools in QGIS
 
 All data in QGIS is edited the same way regardless of its data type. So, ArcGIS Online features are edited the same way as shapefiles or spatial database data. If you are familiar with editing in ArcGIS Desktop or Pro you will be familiar with these tools.
 
