@@ -27,4 +27,10 @@ There are some basic editing functions that we will go through in this guide but
 To draw a new feature in QGIS you need to start an editing session, if you haven't already, and click the *Add new feature* button. Then, click on the map where you want your feature to be if it is a point, or start if it is a line or polygon.
 If you're drawing a line or polygon, once you have finished adding the vertices, right-click on your mouse and an attribute window will appear where you can edit the features attributes before writing the feature to memory. Once you have finished drawing your new features click the *Save edits* button to the right of the *Start editing* button. This will write your features from memory to the feature class.
 
-![QGIS start edit session](images/qgisEditing.PNG)
+### Editing an existing feature
+
+Editing an existing feature is similar to creating a new feature. If you want to edit the spatial data of a feature you can start an editing session and then click *Vertex tool* button. Then, hover over the feature to where the vertices are and move the vertices as needed. Once done, click the save edits button.
+
+![QGIS create a feature](images/qgisEditing.PNG)
+
+To edit the tabular data of a feature, open the attribute table of the feature by right-clicking the layer in the *Layers* window and selecting *Open Attribute Table* from the menu. Then, double click inside the row and column you want to edit. You can select the layer in the map to highlight that layer in the attribute table.
